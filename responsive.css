@@ -1,0 +1,55 @@
+@media screen and (min-width: 586px) {
+  /*********************
+NAV
+*********************/
+
+nav li{   
+  display: inline-block;
+  padding: 10px 0;    
+  text-align: center;
+  width: 30%;
+  height: auto;
+  
+}
+  
+/*********************
+COVERS
+*********************/
+  
+#variants li{
+  float: left;
+  background-color: #GGG;
+  width: 28.333%;
+  margin: 2.5%;
+}
+}
+
+@media screen and (min-width: 960px) {
+
+/*********************
+COVERS
+*********************/
+  
+#variants li{
+  float: left;
+  background-color: #GGG;
+  width: 20%;
+  margin: 2.5%;
+}
+  
+}
+
+@media screen and (min-width: 1400px) {
+
+/*********************
+COVERS
+*********************/
+  
+#variants li{
+  float: left;
+  background-color: #GGG;
+  width: 15%;
+  margin: 2.5%;
+}
+  
+}
