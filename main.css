@@ -53,6 +53,14 @@ img {
   max-width:100%;
 }
 
+#variants img{
+  opacity: 0.4;
+}
+
+#variants li input[type="checkbox"]:checked{
+  opacity:1;
+}
+
 #variants{
   list-style: none;
   margin: 0;
@@ -87,6 +95,10 @@ img {
   display: block;
 }
 
+#variants .forma{
+  display: inline-block;
+  width:50%;
+}
 /*********************
 BODY
 *********************/
