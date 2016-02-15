@@ -66,6 +66,10 @@ FILTER
   margin: 5px 0;
 }
 
+.active{
+  background-color: pink;
+}
+
 .filter h3{
   padding:0;
   display: inline;
