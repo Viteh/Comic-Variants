@@ -10,7 +10,7 @@ $(document).ready(function(){
     //Hide the filter when not in use
     $("#types").hide();
     $("#arcs").hide();
-    $(".filter h3").mouseover(function(){
+    $(".filter").mouseover(function(){
         $("#types").show();
     });
     $(".wrapper").mouseover(function(){

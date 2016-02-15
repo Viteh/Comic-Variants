@@ -26,7 +26,7 @@ header{
   float: left;
   width: 100%;
   background-color: #d02090;
-  margin: 0 0 1px 0;
+  margin: 0;
   padding: 5px 0 0 0;
 }
 /*********************
@@ -53,6 +53,8 @@ FILTER
   text-align: center;
   background-color: #ff69b4;
   opacity: 0.4;
+  display: inline-block;
+  width: 100%;
 }
 
 .filter ul{
@@ -60,6 +62,7 @@ FILTER
   margin: 0;
   list-style: none;
   font-weight: bold;
+  background-color: #ff69cc;
 }
 
 .filter p{
@@ -77,6 +80,10 @@ FILTER
 /*********************
 COVERS
 *********************/
+.wrapper{
+  display:inline-block;
+  width:100%;
+}
 img {
   max-width:100%;
 }
