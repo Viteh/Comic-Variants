@@ -321,7 +321,7 @@ $(document).ready(function(){
         }
 
     ]}
-    //When you click on a filter option it adds those covers 
+    //When you click on a filter option it adds those covers, when you click again it removes them
     $("#types li p").on("click", function(e){
         var typ = this.id;
         var newIssues="";
