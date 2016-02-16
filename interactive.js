@@ -17,9 +17,9 @@ $(document).ready(function(){
         $("#types").hide();
     });
     
-    //Calls the JSON with the data, atm it's just a variable
+    //Calls the JSON with the data
     var variantes;
-    /* $.ajax({
+    $.ajax({
         beforeSend: function(xhr){
             if(xhr.overrideMimeType){
                 xhr.overrideMimeType("application/json");
@@ -36,9 +36,9 @@ $(document).ready(function(){
         });
     }
 
-    loadVariantes(); */
+    loadVariantes();
 
-    variantes={"issues":[
+    /* variantes={"issues":[
         {
             "cover": "01A",
             "type": "main",
@@ -320,7 +320,8 @@ $(document).ready(function(){
             "arc": "comsui" 
         }
 
-    ]}
+    ]} */
+    
     //When you click on a filter option it adds those covers, when you click again it removes them
     $("#types li p").on("click", function(e){
         var typ = this.id;
