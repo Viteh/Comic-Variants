@@ -27,11 +27,22 @@ COVERS
 *********************/
   
 #variants li{
-  float: left;
-  background-color: #GGG;
-  width: 28.333%;
+  width: 28.33%;
   margin: 2.5%;
 }
+}
+
+@media screen and (min-width: 730px) {
+
+/*********************
+COVERS
+*********************/
+  
+#variants li{
+  width: 22%;
+  margin: 1.5%;
+}
+  
 }
 
 @media screen and (min-width: 960px) {
@@ -41,10 +52,21 @@ COVERS
 *********************/
   
 #variants li{
-  float: left;
-  background-color: #GGG;
-  width: 20%;
-  margin: 2.5%;
+  width: 17%;
+  margin: 1.5%;
+}
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+/*********************
+COVERS
+*********************/
+  
+#variants li{
+  width: 14%;
+  margin: 1.33%;
 }
   
 }
@@ -56,10 +78,8 @@ COVERS
 *********************/
   
 #variants li{
-  float: left;
-  background-color: #GGG;
-  width: 15%;
-  margin: 2.5%;
+  width: 12%;
+  margin: 2.33%;
 }
   
 }
